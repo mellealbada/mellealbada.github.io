@@ -1,0 +1,31 @@
+---
+title: "Melle Albada"
+format:
+  html:
+    toc: false
+about:
+  template: solana
+  image: portret_melle_albada.jpg
+  image-shape: rectangle
+  links:
+    - icon: envelope-at
+      text: Email
+      href: mailto:melle.albada@wu.ac.at
+    - icon: github
+      text: Github
+      href: https://github.com/mralbada
+    - icon: pin-map
+      text: Vienna, Austria 
+---
+
+Welcome to my personal website! I am a PhD candidate at the Vienna University of Economics and Business. 
+
+My research interests are in applied econometrics, robustness testing, and replication. The papers I have written mainly focus on regression discontinuity designs.
+
+## Research
+
+### Working Papers
+- Albada, M. R. (2024). Comment on “why high-order polynomials should not be used in regression discontinuity designs”. OSF preprint. <https://doi.org/10.31219/osf.io/547hp>.
+
+- Albada, M. R. (2024). Overfitting in regression discontinuity designs: A reconsideration of global and local models. OSF preprint. <https://doi.org/10.31219/osf.io/8depx>.
+

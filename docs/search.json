@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Melle Albada",
+    "section": "",
+    "text": "Welcome to my personal website! I am a PhD candidate at the Vienna University of Economics and Business.\nMy research interests are in applied econometrics, robustness testing, and replication. The papers I have written mainly focus on regression discontinuity designs."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "Melle Albada",
+    "section": "Research",
+    "text": "Research\n\nWorking Papers\n\nAlbada, M. R. (2024). Comment on “why high-order polynomials should not be used in regression discontinuity designs”. OSF preprint. https://doi.org/10.31219/osf.io/547hp.\nAlbada, M. R. (2024). Overfitting in regression discontinuity designs: A reconsideration of global and local models. OSF preprint. https://doi.org/10.31219/osf.io/8depx."
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "The rdpolboot function calculates bootstrapped confidence intervals around the asymptotic mean squared error (AMSE).\n\n\nTo install/update in R using GitHub type:\n\n# install.packages(\"devtools\")\ndevtools::install_github(\"mellealbada/rdpolboot/R\")\n\n\n\n\nTo install/update in Stata type:\nnet install rdpolboot, from(https://raw.githubusercontent.com/mellealbada/rdpolboot/main/stata) replace"
+  },
+  {
+    "objectID": "software.html#rdpolboot",
+    "href": "software.html#rdpolboot",
+    "title": "Software",
+    "section": "",
+    "text": "The rdpolboot function calculates bootstrapped confidence intervals around the asymptotic mean squared error (AMSE).\n\n\nTo install/update in R using GitHub type:\n\n# install.packages(\"devtools\")\ndevtools::install_github(\"mellealbada/rdpolboot/R\")\n\n\n\n\nTo install/update in Stata type:\nnet install rdpolboot, from(https://raw.githubusercontent.com/mellealbada/rdpolboot/main/stata) replace"
+  },
+  {
+    "objectID": "rdtesting.html",
+    "href": "rdtesting.html",
+    "title": "RD Testing",
+    "section": "",
+    "text": "This page accompanies my working paper on selective testing in regression discontinuity (RD) designs. It gives recommendations for systematically conducting tests, according to recent insights from the methodological RD literature. I focus on ten typical RD tests that cover the most important aspects of an RD analysis: the RD identification assumption, sensitivity to the model specification, and other RD-specific threats, such as low statistical power, overfitting, and excessive false positive findings. To illustrate how these tests can be conducted, I apply them to a data set from Klašnja and Titiunik (2017), KT henceforth (replication package). The R and Stata code may serve as a template for other researchers that want to conduct RD tests.\nKT explore political accountability in Brazilian mayorial elections. They argue that weak party structures and term limits undermine accountability, leading to opportunistic behavior by incumbents, which voters punish in subsequent elections. In my replication, I test the main result presented in Table 2. The statistically significant coefficient of -0.15 suggests that an incumbent party that is barely reelected is 15 percentage points less likely to win the following election than a similar incumbent party that is barely defeated. Table 2 thus demonstrates the existence of an incumbency disadvantage, which the authors link to weak party structures and term limits in the rest of the paper.\nAs their main model specification, KT use a local linear model with an MSE-optimal bandwidth, triangular kernel, and no covariates. Inference is conducted using robust confidence intervals. These are the default settings I recommend in the working paper. To estimate RD models, both KT and I rely on rdrobust software. It provides a convenient way to apply polynomial estimators, allowing me to conduct many of the tests by adding or changing a single argument/option."
+  },
+  {
+    "objectID": "rdtesting.html#footnotes",
+    "href": "rdtesting.html#footnotes",
+    "title": "RD Testing",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nEquivalence confidence intervals can be NA due to very small t-statistics (either through a large standard error or a small effect size). In the case of the population variable, it is due to a small effect size, meaning that practically any equivalence test would be statistically significant. The NA confidence interval is therefore no reason for concern. See Hartman (2021), footnote 19 for a discussion.↩︎"
+  }
+]
