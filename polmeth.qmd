@@ -9,9 +9,7 @@ For my contact details and other research, go [here](https://mellealbada.github.
 
 For example R and Stata code for RD testing, go [here](https://mellealbada.github.io/rdtesting).
 
-###Additional information on Payson (2020)
-
-The full paper can be accessed ([here](https://doi.org/10.1017/S0003055420000118)).
+### Additional information on Payson ([2020](https://doi.org/10.1017/S0003055420000118))
 
 Payson (2020) argues that local government officials are more likely to hire lobbyists when their funding and policy preferences differ from those of state-elected officials. Lobbyists can play a crucial role by transmitting information to the state legislator, influencing policies to better align with local government interests. Using panel data on municipal lobbying in the US, the author employs a difference-in-differences approach and an RD design. Both identification strategies find an increase in lobbying probability after the election of a state representative from an opposing political party.
 
@@ -31,7 +29,7 @@ The RD data set includes 1,414 lobbying decisions in cities where the elected st
 
 #### RD Plot
 
-![](pay_bw.pdf)
+![](payson_plots2.pdf)
 
 #### Density
 
