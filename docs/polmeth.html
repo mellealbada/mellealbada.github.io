@@ -115,7 +115,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#rd-plot" id="toc-rd-plot" class="nav-link active" data-scroll-target="#rd-plot">RD Plot</a></li>
+  <li><a href="#additional-information-on-payson-2020" id="toc-additional-information-on-payson-2020" class="nav-link active" data-scroll-target="#additional-information-on-payson-2020">Additional information on Payson (2020)</a>
+  <ul>
+  <li><a href="#rd-plot" id="toc-rd-plot" class="nav-link" data-scroll-target="#rd-plot">RD Plot</a></li>
   <li><a href="#density" id="toc-density" class="nav-link" data-scroll-target="#density">Density</a></li>
   <li><a href="#balance" id="toc-balance" class="nav-link" data-scroll-target="#balance">Balance</a></li>
   <li><a href="#bandwidth" id="toc-bandwidth" class="nav-link" data-scroll-target="#bandwidth">Bandwidth</a></li>
@@ -125,6 +127,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#donut" id="toc-donut" class="nav-link" data-scroll-target="#donut">Donut</a></li>
   <li><a href="#placebo-cutoffs" id="toc-placebo-cutoffs" class="nav-link" data-scroll-target="#placebo-cutoffs">Placebo Cutoffs</a></li>
   <li><a href="#statistical-power" id="toc-statistical-power" class="nav-link" data-scroll-target="#statistical-power">Statistical Power</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -153,8 +156,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Thank you for showing an interest in my research!</p>
 <p>For my contact details and other research, go <a href="https://mellealbada.github.io/">here</a>.</p>
 <p>For example R and Stata code for RD testing, go <a href="https://mellealbada.github.io/rdtesting">here</a>.</p>
-<p>###Additional information on Payson (2020)</p>
-<p>The full paper can be accessed (<a href="https://doi.org/10.1017/S0003055420000118">here</a>).</p>
+<section id="additional-information-on-payson-2020" class="level3">
+<h3 class="anchored" data-anchor-id="additional-information-on-payson-2020">Additional information on Payson (<a href="https://doi.org/10.1017/S0003055420000118">2020</a>)</h3>
 <p>Payson (2020) argues that local government officials are more likely to hire lobbyists when their funding and policy preferences differ from those of state-elected officials. Lobbyists can play a crucial role by transmitting information to the state legislator, influencing policies to better align with local government interests. Using panel data on municipal lobbying in the US, the author employs a difference-in-differences approach and an RD design. Both identification strategies find an increase in lobbying probability after the election of a state representative from an opposing political party.</p>
 <p>The RD data set includes 1,414 lobbying decisions in cities where the elected state official is either co-partisan or unaligned. Using local models up to a third-order polynomial, with a triangular kernel, MSE-optimal bandwidth, and controlling for city population, the author estimates an increase in lobbying probability between 13 and 24 percentage points (Table 1). Whereas all point estimates are positive, only that of the local third-order polynomial model is statistically significant at the 10% level.</p>
 <p><strong>Table 1:</strong> Main results in Payson (2020).</p>
@@ -209,7 +212,7 @@ ul.task-list li input[type="checkbox"] {
 <p><em>Notes:</em> <em>p</em> &lt; 0.1 (*), <em>p</em> &lt; 0.05 (**), <em>p</em> &lt; 0.01 (***)</p>
 <section id="rd-plot" class="level4">
 <h4 class="anchored" data-anchor-id="rd-plot">RD Plot</h4>
-<p><embed src="pay_bw.pdf" class="img-fluid"></p>
+<p><embed src="payson_plots2.pdf" class="img-fluid"></p>
 </section>
 <section id="density" class="level4">
 <h4 class="anchored" data-anchor-id="density">Density</h4>
@@ -249,6 +252,7 @@ ul.task-list li input[type="checkbox"] {
 <p><embed src="pay_power.pdf" class="img-fluid"></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
