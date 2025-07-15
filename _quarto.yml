@@ -10,6 +10,7 @@ website:
       - index.qmd
       - rdtesting.qmd
       - software.qmd
+      - polmeth.qmd
 
 format:
   html:
