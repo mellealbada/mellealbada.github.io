@@ -9,8 +9,8 @@ website:
     left:
       - index.qmd
       - rdtesting.qmd
-      - software.qmd
       - polmeth.qmd
+      - software.qmd
 
 format:
   html:
