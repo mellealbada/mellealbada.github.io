@@ -1,0 +1,72 @@
+---
+title: "Polmeth XLII"
+format: html
+---
+
+Thank you for showing an interest in my research!
+
+For my contact details and other research, go [here](https://mellealbada.github.io/).
+
+For example R and Stata code for RD testing, go [here](https://mellealbada.github.io/rdtesting).
+
+###Additional information on Payson (2020)
+
+The full paper can be accessed ([here](https://doi.org/10.1017/S0003055420000118)).
+
+Payson (2020) argues that local government officials are more likely to hire lobbyists when their funding and policy preferences differ from those of state-elected officials. Lobbyists can play a crucial role by transmitting information to the state legislator, influencing policies to better align with local government interests. Using panel data on municipal lobbying in the US, the author employs a difference-in-differences approach and an RD design. Both identification strategies find an increase in lobbying probability after the election of a state representative from an opposing political party.
+
+The RD data set includes 1,414 lobbying decisions in cities where the elected state official is either co-partisan or unaligned. Using local models up to a third-order polynomial, with a triangular kernel, MSE-optimal bandwidth, and controlling for city population, the author estimates an increase in lobbying probability between 13 and 24 percentage points (Table 1). Whereas all point estimates are positive, only that of the local third-order polynomial model is statistically significant at the 10% level.
+
+**Table 1:** Main results in Payson (2020).
+
+|                   | \(1\)           | \(2\)           | \(3\)           |
+|-------------------|-----------------|-----------------|-----------------|
+| **Estimate**      | 0.13            | 0.18            | 0.24\*          |
+| **Robust 95% CI** | \[-0.06, 0.33\] | \[-0.05, 0.46\] | \[-0.02, 0.58\] |
+| **Bandwidth**     | 21.58           | 24.15           | 27.93           |
+| **Effective N**   | 657             | 738             | 850             |
+| **Polynomial**    | 1               | 2               | 3               |
+
+*Notes:* *p* \< 0.1 (\*), *p* \< 0.05 (\*\*), *p* \< 0.01 (\*\*\*)
+
+#### RD Plot
+
+![](pay_bw.pdf)
+
+#### Density
+
+![](pay_density.pdf)
+
+#### Balance
+
+![](pay_balance.pdf)
+
+#### Bandwidth
+
+![](pay_bw.pdf)
+
+#### Polynomial Order
+
+![](pay_pol.pdf)
+
+#### Kernel
+
+![](pay_kern.pdf)
+
+#### Covariates
+
+![](pay_cov.pdf)
+
+#### Donut
+
+![](pay_donut.pdf)
+
+#### Placebo Cutoffs
+
+![](pay_cutoff_both.pdf)
+
+![](pay_cutoff_sep.pdf)
+
+#### Statistical Power
+
+![](pay_power.pdf)
